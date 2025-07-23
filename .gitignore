@@ -1,3 +1,16 @@
+# Bioinformatics files
+*.fasta
+*.faa
+*.mafft
+*.trimal
+*.treefile
+
+#Nextflow specific files
+.nextflow.log*
+.nextflow/
+work/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
