@@ -2,6 +2,10 @@
 
 This repository contains a collection of scripts and tools for analyzing genomic data, including:
 
+## Ancestral sequence reconstruction analysis
+IQ-TREE.state file analysis: Script to extract the predicted amino acid at a given position for each node from an IQ-TREE sequence ancestral reconstruction file (.state file). It also extract the amino acid at the same position for each leaf from a multiple sequence alignment (MSA) file (FASTA format). Using the extracted information, it generates several iTOL-compatible files for visualization.
+Path: ancestral_sequence_reconstruction/extract_aa_to_itol.py
+
 ## InterPro PFAM filtering
 PFAM Domain Filtering: Tools for extracting and filtering PFAM domain data from JSON and FASTA files.  
 Path: pfam_filtering/interproscan_pfam_filtering.py
