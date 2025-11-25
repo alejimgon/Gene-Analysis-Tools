@@ -4,10 +4,12 @@ This repository contains a collection of scripts for genomic data analysis.
 
 ## Contents
 
+- **color_iTOL/**  
+  Scripts for generating iTOL (Interactive Tree of Life) visualization files with automatic taxonomic coloring and labels. Includes batch processing capabilities for multiple phylogenetic trees. See [color_iTOL/README.md](color_iTOL/README.md) for usage and details.
+
 - **extract_genbank**
   Extract a region from GenBank files based on a table of gene pairs and accession numbers.  
   For each gene pair, it finds the two reference genes in the GenBank file, extracts all features between them (inclusive), plus two genes upstream and two downstream (if available), and writes the region to a new GenBank file. See [extract_genbank/README.md](extract_genbank/README.md) for usage and details.
-
 
 - **extract_seq/**  
   Perl scripts to extract sequences based on a list from a FASTA file. It contains two scripts: one to extract the sequences present in a reference list and another to extract the sequences not present in a reference list. See [extract_seq/README.md](extract_seq/README.md) for usage and details.
